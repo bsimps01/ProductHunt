@@ -15,6 +15,7 @@
 		1BDE6BAE244D36D100D191F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDE6BAC244D36D100D191F4 /* LaunchScreen.storyboard */; };
 		1BDE6BB6244D50FA00D191F4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE6BB5244D50FA00D191F4 /* Post.swift */; };
 		1BDE6BB8244D687D00D191F4 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE6BB7244D687D00D191F4 /* PostTableViewCell.swift */; };
+		1BDE6BC6244EE47E00D191F4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE6BC5244EE47E00D191F4 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1BDE6BAF244D36D100D191F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BDE6BB5244D50FA00D191F4 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		1BDE6BB7244D687D00D191F4 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		1BDE6BC5244EE47E00D191F4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1BDE6BA1244D36CE00D191F4 /* AppDelegate.swift */,
 				1BDE6BA3244D36CE00D191F4 /* SceneDelegate.swift */,
 				1BDE6BA5244D36CE00D191F4 /* FeedViewController.swift */,
+				1BDE6BC5244EE47E00D191F4 /* NetworkManager.swift */,
 				1BDE6BB5244D50FA00D191F4 /* Post.swift */,
 				1BDE6BA7244D36CE00D191F4 /* Main.storyboard */,
 				1BDE6BB7244D687D00D191F4 /* PostTableViewCell.swift */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDE6BC6244EE47E00D191F4 /* NetworkManager.swift in Sources */,
 				1BDE6BA6244D36CE00D191F4 /* FeedViewController.swift in Sources */,
 				1BDE6BA2244D36CE00D191F4 /* AppDelegate.swift in Sources */,
 				1BDE6BB8244D687D00D191F4 /* PostTableViewCell.swift in Sources */,
